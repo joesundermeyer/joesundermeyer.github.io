@@ -1,15 +1,15 @@
 /* -----------------------
 Base styles
 ------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body
 {
 	margin: 0;
 	padding: 0;
 	color: #333;
-	background-color: #eee;
-	font: 1em/1.2 "Anton";
+	background-color: #fff;
+	font: 1em/1.2 "Roboto";
 }
 
 h1,h2,h3,h4,h5,h6
