@@ -1,7 +1,7 @@
 /* -----------------------
 Base styles
 ------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Roboto|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Alpha Slab One');
 
 body
 {
@@ -19,12 +19,12 @@ h1,h2,h3,h4,h5,h6
 	line-height: 1.1;
 }
 
-h1 { font-size: 2.25em; font-family: Oswald; } /* 36px */
-h2 { font-size: 1.75em; font-family: Oswald; } /* 28px */
-h3 { font-size: 1.375em; font-family: Oswald; } /* 22px */
-h4 { font-size: 1.125em; font-family: Oswald; } /* 18px */
-h5 { font-size: 1em; font-family: Oswald; } /* 16px */
-h6 { font-size: .875em; font-family: Oswald; } /* 14px */
+h1 { font-size: 2.25em; } /* 36px */
+h2 { font-size: 1.75em; } /* 28px */
+h3 { font-size: 1.375em; font-family: Alpha Slab One; } /* 22px */
+h4 { font-size: 1.125em; } /* 18px */
+h5 { font-size: 1em; } /* 16px */
+h6 { font-size: .875em; } /* 14px */
 
 p
 {
