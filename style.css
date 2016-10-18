@@ -1,7 +1,7 @@
 /* -----------------------
 Base styles
 ------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Roboto|Bevan');
+@import url('https://fonts.googleapis.com/css?family=Lato|Bevan');
 
 body
 {
@@ -9,7 +9,7 @@ body
 	padding: 0;
 	color: #333;
 	background-color: #fff;
-	font: 1em/1.2 "Roboto";
+	font: 1em/1.2 "Lato";
 }
 
 h1,h2,h3,h4,h5,h6
@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6
 	line-height: 1.1;
 }
 
-h1 { font-size: 2.25em; } /* 36px */
+h1 { font-size: 2.25em; font-family: Bevan; } /* 36px */
 h2 { font-size: 1.75em; font-family: Bevan; } /* 28px */
 h3 { font-size: 1.375em; font-family: Bevan; } /* 22px */
 h4 { font-size: 1.125em; } /* 18px */
