@@ -120,6 +120,7 @@ Nav
 {
 	display: inline;
 	margin: 0;
+	list-style: none;
 }
 
 .nav a
