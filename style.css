@@ -1,7 +1,7 @@
 /* -----------------------
 Base styles
 ------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Lato|Slabo+13px');
+@import url('https://fonts.googleapis.com/css?family=Lato|Slabo+13px|Fira+Sans+Condensed');
 
 body
 {
@@ -23,7 +23,7 @@ h1 { font-size: 5.0em; font-family: Lato !important; } /* 36px */
 h2 { font-size: 1.75em; font-family: Lato !important; } /* 28px */
 h3 { font-size: 1.375em; font-family: Lato !important; } /* 22px */
 h4 { font-size: 1.125em; } /* 18px */
-h5 { font-size: 1em; } /* 16px */
+h5 { font-size: 1em; font-family: Fira Sans Condensed !important; } /* 16px */
 h6 { font-size: .875em; } /* 14px */
 
 p
