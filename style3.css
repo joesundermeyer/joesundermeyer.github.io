@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Slabo+13px|Fira+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Lato|Slabo+13px|Fira+Sans+Condensed|Abel');
 
 body {
 	margin: 0px 0px 0px 0px;
@@ -46,14 +46,15 @@ h1 {
 	margin-bottom: 0;
 	}
 h2 {
-	font-size: 18px;
+	font-family: 'Abel';
+	font-size: 30px;
 	line-height: 22px;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
 	}
 h3 {
-	font-size: 30px;
+	font-size: 18px;
 	line-height: 22px;
 	font-weight: bold;
 	margin-top: 0;
