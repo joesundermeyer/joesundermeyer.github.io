@@ -36,11 +36,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 /* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
-/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/contact/contact.component */ "./src/app/components/contact/contact.component.ts");
-/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/about/about.component */ "./src/app/components/about/about.component.ts");
-/* harmony import */ var _components_skils_skils_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/skils/skils.component */ "./src/app/components/skils/skils.component.ts");
-/* harmony import */ var _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/experience/experience.component */ "./src/app/components/experience/experience.component.ts");
-
+/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/about/about.component */ "./src/app/components/about/about.component.ts");
+/* harmony import */ var _components_skils_skils_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/skils/skils.component */ "./src/app/components/skils/skils.component.ts");
+/* harmony import */ var _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/experience/experience.component */ "./src/app/components/experience/experience.component.ts");
 
 
 
@@ -56,20 +54,16 @@ const routes = [
         component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"]
     },
     {
-        path: 'contact',
-        component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_3__["ContactComponent"]
-    },
-    {
         path: 'about',
-        component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"]
+        component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"]
     },
     {
         path: 'skils',
-        component: _components_skils_skils_component__WEBPACK_IMPORTED_MODULE_5__["SkilsComponent"]
+        component: _components_skils_skils_component__WEBPACK_IMPORTED_MODULE_4__["SkilsComponent"]
     },
     {
         path: 'experience',
-        component: _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_6__["ExperienceComponent"]
+        component: _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_5__["ExperienceComponent"]
     }
 ];
 class AppRoutingModule {
@@ -159,11 +153,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/header/header.component */ "./src/app/components/header/header.component.ts");
 /* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/footer/footer.component */ "./src/app/components/footer/footer.component.ts");
 /* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
-/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/contact/contact.component */ "./src/app/components/contact/contact.component.ts");
-/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/about/about.component */ "./src/app/components/about/about.component.ts");
-/* harmony import */ var _components_skils_skils_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/skils/skils.component */ "./src/app/components/skils/skils.component.ts");
-/* harmony import */ var _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/experience/experience.component */ "./src/app/components/experience/experience.component.ts");
-
+/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/about/about.component */ "./src/app/components/about/about.component.ts");
+/* harmony import */ var _components_skils_skils_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/skils/skils.component */ "./src/app/components/skils/skils.component.ts");
+/* harmony import */ var _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/experience/experience.component */ "./src/app/components/experience/experience.component.ts");
 
 
 
@@ -182,16 +174,15 @@ AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule
 AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-            _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"]
+            _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
         _components_header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"],
         _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"],
         _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"],
-        _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_8__["ContactComponent"],
-        _components_about_about_component__WEBPACK_IMPORTED_MODULE_9__["AboutComponent"],
-        _components_skils_skils_component__WEBPACK_IMPORTED_MODULE_10__["SkilsComponent"],
-        _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_11__["ExperienceComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _components_about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"],
+        _components_skils_skils_component__WEBPACK_IMPORTED_MODULE_9__["SkilsComponent"],
+        _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_10__["ExperienceComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
@@ -202,18 +193,17 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _components_header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"],
                     _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"],
                     _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"],
-                    _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_8__["ContactComponent"],
-                    _components_about_about_component__WEBPACK_IMPORTED_MODULE_9__["AboutComponent"],
-                    _components_skils_skils_component__WEBPACK_IMPORTED_MODULE_10__["SkilsComponent"],
-                    _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_11__["ExperienceComponent"]
+                    _components_about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"],
+                    _components_skils_skils_component__WEBPACK_IMPORTED_MODULE_9__["SkilsComponent"],
+                    _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_10__["ExperienceComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                     _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-                    _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"]
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
                 ],
                 providers: [],
-                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
             }]
     }], null, null); })();
 
@@ -239,7 +229,7 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 23, vars: 0, consts: [[1, "center"], [1, "w3-header", "w3-grey"], [1, "p-spaced"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 24, vars: 0, consts: [[1, "center"], [1, "w3-header", "w3-grey"], [1, "p-spaced-2"], ["src", "./assets/img/plane_pandemic_pic.jpg", 1, "img2"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "header", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1");
@@ -274,6 +264,7 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "And I'm looking for my next challenge.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "img", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AboutComponent, [{
@@ -285,125 +276,16 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         <header class="w3-header w3-grey ">
             <h1>About</h1>
         </header>
-        <p class="p-spaced">I'm probably a little different from your typical candidate.</p>
-        <p class="p-spaced">My career started as a freelance writer and marketing communications consultant. I've found my way through the corporate world, including a Fortune 500 telecom, worked at a nonprofit and a startup and now the public sector.</p>
-        <p class="p-spaced">My work on Accessibility is the perfect culmination of all the places I've been and the jobs I've done, in particular over the last several years. I'm obsessed with making sure that the digital content and services offered by the county I serve are accessible to everyone. It is about all the typical things you think about when you think of accessibility. It is WCAG and PDF/UA and Section 508. But in the year since I joined the County Manager's Office, it has also evolved into what I think of as <em>digital equity</em>.</p>
-        <p class="p-spaced">Particularly as our communications have evolved during the pandemic, I have worked hard to make sure that every piece of critical content generated by any county department is accessible to people with disabilities and easy to use whether or not English is your first language.</p>
-        <p class="p-spaced">For being the great tool for the dissemination of knowledge, the web has also marginalized people who are blind or deaf, those who have developmental disabilities, and people who are economically disadvantaged.</p>
-        <p class="p-spaced">After working with some or all of those groups over the past 8 years or so, I found Accessibility to be a natural evolution of all the work that came before.</p>
-        <p class="p-spaced">I've been working online for a long time. But my skills are fresh and I'm literally learning new things every day. Three years ago I had not taken apart a PDF and put it back together at the tag level. Or cloned a Git repository. Now I do those things every day.</p>
-        <p class="p-spaced">And I'm looking for my next challenge.</p>
+        <p class="p-spaced-2">I'm probably a little different from your typical candidate.</p>
+        <p class="p-spaced-2">My career started as a freelance writer and marketing communications consultant. I've found my way through the corporate world, including a Fortune 500 telecom, worked at a nonprofit and a startup and now the public sector.</p>
+        <p class="p-spaced-2">My work on Accessibility is the perfect culmination of all the places I've been and the jobs I've done, in particular over the last several years. I'm obsessed with making sure that the digital content and services offered by the county I serve are accessible to everyone. It is about all the typical things you think about when you think of accessibility. It is WCAG and PDF/UA and Section 508. But in the year since I joined the County Manager's Office, it has also evolved into what I think of as <em>digital equity</em>.</p>
+        <p class="p-spaced-2">Particularly as our communications have evolved during the pandemic, I have worked hard to make sure that every piece of critical content generated by any county department is accessible to people with disabilities and easy to use whether or not English is your first language.</p>
+        <p class="p-spaced-2">For being the great tool for the dissemination of knowledge, the web has also marginalized people who are blind or deaf, those who have developmental disabilities, and people who are economically disadvantaged.</p>
+        <p class="p-spaced-2">After working with some or all of those groups over the past 8 years or so, I found Accessibility to be a natural evolution of all the work that came before.</p>
+        <p class="p-spaced-2">I've been working online for a long time. But my skills are fresh and I'm literally learning new things every day. Three years ago I had not taken apart a PDF and put it back together at the tag level. Or cloned a Git repository. Now I do those things every day.</p>
+        <p class="p-spaced-2">And I'm looking for my next challenge.</p>
+        <img class="img2" src="./assets/img/plane_pandemic_pic.jpg">
     </div>
-  `,
-                styles: []
-            }]
-    }], function () { return []; }, null); })();
-
-
-/***/ }),
-
-/***/ "./src/app/components/contact/contact.component.ts":
-/*!*********************************************************!*\
-  !*** ./src/app/components/contact/contact.component.ts ***!
-  \*********************************************************/
-/*! exports provided: ContactComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
-
-
-
-class ContactComponent {
-    constructor() { }
-    ngOnInit() { }
-    processForm() {
-        const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
-        alert(allInfo);
-    }
-}
-ContactComponent.ɵfac = function ContactComponent_Factory(t) { return new (t || ContactComponent)(); };
-ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 15, vars: 3, consts: [[1, "hero", "is-info", "is-bold"], [1, "hero-body"], [1, "container"], [1, "title"], [1, "section"], [1, "field"], ["type", "text", "name", "name", "placeholder", "Your Name", 1, "input", 3, "ngModel", "ngModelChange"], ["type", "email", "name", "email", "placeholder", "Your Email", 1, "input", 3, "ngModel", "ngModelChange"], ["name", "message", "placeholder", "What's on your mind?", 1, "textarea", 3, "ngModel", "ngModelChange"], ["type", "submit", 1, "button", "is-orange", "is-large"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Contact");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "section", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "form");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "input", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ContactComponent_Template_input_ngModelChange_8_listener($event) { return ctx.name = $event; });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "input", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ContactComponent_Template_input_ngModelChange_10_listener($event) { return ctx.email = $event; });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "textarea", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function ContactComponent_Template_textarea_ngModelChange_12_listener($event) { return ctx.message = $event; });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "button", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Submit");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.name);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.email);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.message);
-    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgForm"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgModel"]], encapsulation: 2 });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ContactComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
-        args: [{
-                selector: 'app-contact',
-                template: `
-    <section class="hero is-info is-bold">
-    <div class="hero-body">
-    <div class="container">
-
-      <h1 class="title">Contact</h1>
-      
-        <section class="section">
-            <!-- form goes here -->
-            <form>
-
-              <!-- name -->
-              <div class="field">
-                <input type="text" name="name" class="input" placeholder="Your Name" [(ngModel)]="name">
-              </div>
-
-              <!-- email -->
-              <div class="field">
-                <input type="email" name="email" class="input" placeholder="Your Email" [(ngModel)]="email">
-              </div>
-
-              <!-- message -->
-              <div class="field">
-                <textarea class="textarea" name="message" placeholder="What's on your mind?" [(ngModel)]="message"></textarea>
-              </div>
-
-              <button type="submit" class="button is-orange is-large">Submit</button>
-
-            </form>
-        </section>
-        
-    </div>
-  </div>
- </section>
   `,
                 styles: []
             }]
@@ -702,7 +584,7 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 10, vars: 0, consts: [[1, "navbar", "is-dark"], [1, "navbar-brand"], [1, "navbar-item"], ["src", "assets/img/js_logo.png"], [1, "navbar-menu"], [1, "navbar-start"], ["routerLink", "", 1, "navbar-item"], ["routerLink", "contact", 1, "navbar-item"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 8, vars: 0, consts: [[1, "navbar", "is-dark"], [1, "navbar-brand"], [1, "navbar-item"], ["src", "assets/img/js_logo.png"], [1, "navbar-menu"], [1, "navbar-start"], ["routerLink", "", 1, "navbar-item"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 2);
@@ -713,9 +595,6 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Home");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Contact");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -734,15 +613,14 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
               <img src="assets/img/js_logo.png">
             </a>
           </div>
-      
+
        <!-- menu -->
           <div class="navbar-menu">
             <div class="navbar-start">
               <a class="navbar-item" routerLink="">Home</a>
-              <a class="navbar-item" routerLink="contact">Contact</a>
             </div>
           </div>
-  
+
     </nav>
   `,
                 styles: []
@@ -801,7 +679,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".hero[_ngcontent-%COMP%] {\n      background-image: url('/assets/img/windows.jpg') !important;\n      background-position: center center;\n    }"] });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".hero[_ngcontent-%COMP%] {\n      background-image: url('/assets/img/building.jpg') !important;\n      background-repeat: no repeat;\n      background-size: 100%;\n    }"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -815,15 +693,16 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
       <h2 class="right"><a class="home_navlink" routerLink="skils">Skills</a></h2><br>
       <h2 class="right"><a class="home_navlink" routerLink="experience">Experience</a></h2><br>
       <h2 class="right"><a class="home_navlink" routerLink="about">About</a></h2><br>
-      
+
     </div>
     </div>
     </section>
   `,
                 styles: [`
     .hero {
-      background-image: url('/assets/img/windows.jpg') !important;
-      background-position: center center;
+      background-image: url('/assets/img/building.jpg') !important;
+      background-repeat: no repeat;
+      background-size: 100%;
     }
   `]
             }]
@@ -851,68 +730,56 @@ class SkilsComponent {
     }
 }
 SkilsComponent.ɵfac = function SkilsComponent_Factory(t) { return new (t || SkilsComponent)(); };
-SkilsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SkilsComponent, selectors: [["app-skils"]], decls: 40, vars: 0, consts: [[1, "center"], [1, "w3-header", "w3-grey"], [1, "container-3"], [1, "skills", "dae", "skills-color"], [1, "h2-exp"], [1, "p-spaced"], [1, "skills", "copy", "skills-copy"], [1, "skills", "cli", "skills-cli"], [1, "skills", "css", "skills-css"]], template: function SkilsComponent_Template(rf, ctx) { if (rf & 1) {
+SkilsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SkilsComponent, selectors: [["app-skils"]], decls: 32, vars: 0, consts: [[1, "center"], [1, "w3-header", "w3-grey"], [1, "container-3"], [1, "skills", "dae"], [1, "h2-exp"], [1, "p-spaced"], [1, "skills", "copy"], [1, "skills", "cli"], [1, "skills", "css"]], template: function SkilsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "header", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Experience");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Skills");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Digital Accessibility/Equity");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "90%");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Digital Acessibility/Equity: 90%");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "h2", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Advanced");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "h2", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Advanced");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "I have been working on accessibility for the past 8 years or so, most notably in the past 3, during my time at a startup focused employment for people with disabilities and, during the past year, as a digital accessibility expert for government of Johnson County, Kansas.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "I have been working on accessibility for the past 8 years or so, most notably in the past 3, during my time at a startup focused employment for people with disabilities and, during the past year, as a digital accessibility expert for government of Johnson County, Kansas.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Copywriting");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "95%");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Copywriting: 95%");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "h2", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Expert");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "h2", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Expert");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "My first job after college was as a journalist. Writing and editing have been part of every job I've had since. I excel at Marketing and Advertising copywriting and writing for the web.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "My first job after college was as a journalist. Writing and editing have been part of every job I've had since. I excel at Marketing and Advertising copywriting and writing for the web.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Angular CLI, Node.js, GitHub");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "75%");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Angular CLI, Node.js, GitHub: 75%");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "h2", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Capable");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "h2", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Capable");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "p", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Over the past 3 years, my web work has been almost exclusively devoted to front end content and design development using Angular, Material Design, and the Atlassian suite, primarily Jira, Bitbucket and Confluence. I am comfortable using using the CLI for Linux, Mac and Windows.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Over the past 3 years, my web work has been almost exclusively devoted to front end content and design development using Angular, Material Design, and the Atlassian suite, primarily Jira, Bitbucket and Confluence. I am comfortable using using the CLI for Linux, Mac and Windows.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "HTML/CSS");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "80%");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "HTML/CSS: 80%");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "h2", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Advanced");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "h2", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Advanced");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "p", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "I built my first website in 1996 using html and Java. After that, I worked on sites in various environments and various content management systems. I'm currently working in a Drupal/Sharepoint environment. I'm comfortable developing HTML and CSS from scratch whether as flat pages, via a CMS like Wordpress or on a component-ized platform like Angular.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "p", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "I built my first website in 1996 using html and Java. After that, I worked on sites in various environments and various content management systems. I'm currently working in a Drupal/Sharepoint environment. I'm comfortable developing HTML and CSS from scratch whether as flat pages, via a CMS like Wordpress or on a component-ized platform like Angular.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, encapsulation: 2 });
@@ -923,32 +790,28 @@ SkilsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
                 template: `
      <div class="center">
         <header class="w3-header w3-grey ">
-            <h1>Experience</h1>
-        </header> 
-            <p>Digital Accessibility/Equity</p>
+            <h1>Skills</h1>
+        </header>
             <div class="container-3">
-              <div class="skills dae skills-color">90%</div>
+              <div class="skills dae">Digital Acessibility/Equity: 90%</div>
             </div>
             <h2 class="h2-exp">Advanced</h2>
             <p class="p-spaced">I have been working on accessibility for the past 8 years or so, most notably in the past 3, during my time at a startup focused employment for people with disabilities and, during the past year, as a digital accessibility expert for government of Johnson County, Kansas.</p>
 
-            <p>Copywriting</p>
             <div class="container-3">
-              <div class="skills copy skills-copy">95%</div>
+              <div class="skills copy">Copywriting: 95%</div>
             </div>
             <h2 class="h2-exp">Expert</h2>
             <p class="p-spaced">My first job after college was as a journalist. Writing and editing have been part of every job I've had since. I excel at Marketing and Advertising copywriting and writing for the web.</p>
 
-            <p>Angular CLI, Node.js, GitHub</p>
             <div class="container-3">
-              <div class="skills cli skills-cli">75%</div>
+              <div class="skills cli">Angular CLI, Node.js, GitHub: 75%</div>
             </div>
             <h2 class="h2-exp">Capable</h2>
             <p class="p-spaced">Over the past 3 years, my web work has been almost exclusively devoted to front end content and design development using Angular, Material Design, and the Atlassian suite, primarily Jira, Bitbucket and Confluence. I am comfortable using using the CLI for Linux, Mac and Windows.</p>
 
-            <p>HTML/CSS</p>
             <div class="container-3">
-            <div class="skills css skills-css">80%</div>
+            <div class="skills css">HTML/CSS: 80%</div>
             </div>
             <h2 class="h2-exp">Advanced</h2>
             <p class="p-spaced">I built my first website in 1996 using html and Java. After that, I worked on sites in various environments and various content management systems. I'm currently working in a Drupal/Sharepoint environment. I'm comfortable developing HTML and CSS from scratch whether as flat pages, via a CMS like Wordpress or on a component-ized platform like Angular.</p>
