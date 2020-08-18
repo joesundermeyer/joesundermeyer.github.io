@@ -694,7 +694,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".hero[_ngcontent-%COMP%] {\n      background-image: url('/assets/img/building.jpg') !important;\n      background-repeat: no repeat;\n      background-size: 100%;\n    }"] });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".hero[_ngcontent-%COMP%] {\n      background-image: url('/assets/img/building.jpg') !important;\n      background-repeat: no repeat;\n      background-size: cover;\n    }"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -717,7 +717,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
     .hero {
       background-image: url('/assets/img/building.jpg') !important;
       background-repeat: no repeat;
-      background-size: 100%;
+      background-size: cover;
     }
   `]
             }]
